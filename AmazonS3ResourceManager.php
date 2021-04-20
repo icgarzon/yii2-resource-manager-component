@@ -6,9 +6,14 @@
  */
 namespace icgarzon\resourcemanager;
 
+use Aws\Common\Aws;
 use Aws\S3\S3Client;
-use Guzzle\Http\Exception\ClientErrorResponseException;
-use Guzzle\Service\Client;
+use Aws\S3\Exception\S3Exception;
+
+
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\RequestException;
+
 use yii\base\Component;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
@@ -107,10 +112,10 @@ class AmazonS3ResourceManager extends Component implements ResourceManagerInterf
 	 */
 	public function fileExists($name)
 	{
-		$http = new \Guzzle\Http\Client();
+		$http = new GuzzleHttp\Client();
 		try {
 			$response = $http->get($this->getUrl($name))->send();
-		} catch(ClientErrorResponseException $e) {
+		} catch(RequestException $e) {
 			return false;
 		}
 		return $response->isSuccessful();
@@ -178,10 +183,11 @@ class AmazonS3ResourceManager extends Component implements ResourceManagerInterf
 				'region'  => 'us-east-1',
 				'version' => 'latest'
 			];
-			if($this->enableV4)
-				$settings['signature']='v4';
+
+			/*if($this->enableV4)
+				$settings['signature']='v4';*/
 			
-			$this->_client = S3Client::factory($settings);
+			$this->_client = new S3Client($settings);
 		}
 		return $this->_client;
 	}
