@@ -7,19 +7,19 @@
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Antonio Ramirez",
-            "email": "amigo.cobos@gmail.com",
-            "homepage" : "http://2amigos.us"
+            "name": "Camilo Garzon",
+            "email": "icgarzon@servicios.in",
+            "homepage" : "http://ivangarzon.dev"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
-        "aws/aws-sdk-php": "3.178.6"
+        "aws/aws-sdk-php": "2.5.2"
     },
     "autoload": {
         "psr-4": {
-            "dosamigos\\resourcemanager\\": ""
+            "icgarzon\\resourcemanager\\": ""
         }
     }
 }

@@ -5,6 +5,8 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 namespace icgarzon\resourcemanager;
+
+use Aws\S3\Enum\CannedAcl;
 use Aws\S3\S3Client;
 use Guzzle\Http\Exception\ClientErrorResponseException;
 use Guzzle\Service\Client;
@@ -77,7 +79,7 @@ class AmazonS3ResourceManager extends Component implements ResourceManagerInterf
 			'Bucket' => $this->bucket,
 			'Key' => $name,
 			'SourceFile' => $file->tempName,
-			'ACL' => 'public-read' // default to ACL public read
+			'ACL' => CannedAcl::PUBLIC_READ // default to ACL public read
 		], $options);
 
 		return $this->getClient()->putObject($options);
