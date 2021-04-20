@@ -175,7 +175,8 @@ class AmazonS3ResourceManager extends Component implements ResourceManagerInterf
 			$settings=[
 				'key' => $this->key,
 				'secret' => $this->secret,
-				'region'  => 'us-east-1'
+				'region'  => 'us-east-1',
+				'version' => '2006-03-01'
 			];
 			if($this->enableV4)
 				$settings['signature']='v4';
