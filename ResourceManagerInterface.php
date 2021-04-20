@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2013 2amigOS! Consulting Group LLC
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace possibility\resourcemanager;
+namespace icgarzon\resourcemanager;
  /**
  * 
  * Interface ResourceManagerInterface defines a set of methods to be implemented by a [[ResourceManager]]

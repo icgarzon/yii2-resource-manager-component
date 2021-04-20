@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2013 2amigOS! Consulting Group LLC
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace possibility\resourcemanager;
+namespace icgarzon\resourcemanager;
 use Aws\S3\S3Client;
 use Guzzle\Http\Exception\ClientErrorResponseException;
 use Guzzle\Service\Client;
