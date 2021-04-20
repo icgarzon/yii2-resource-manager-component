@@ -1,7 +1,7 @@
 Resource Manager component for Yii 2
 ====================================
 
-[![Latest Stable Version](https://poser.pugx.org/possibility-company/yii2-resource-component/v/stable.svg)](https://packagist.org/packages/Possibility-Companyyii2-ckeditor-widget) [![Total Downloads](https://poser.pugx.org/possibility-company/yii2-resource-component/downloads.svg)](https://packagist.org/packages/possibility-company/yii2-resource-component) [![Latest Unstable Version](https://poser.pugx.org/possibility-company/yii2-resource-component/v/unstable.svg)](https://packagist.org/packages/possibility-company/yii2-resource-component) [![License](https://poser.pugx.org/possibility-company/yii2-resource-component/license.svg)](https://packagist.org/packages/possibility-company/yii2-resource-component)
+[![Latest Stable Version](https://poser.pugx.org/icgarzon/yii2-resource-component/v/stable.svg)](https://packagist.org/packages/Possibility-Companyyii2-ckeditor-widget) [![Total Downloads](https://poser.pugx.org/icgarzon/yii2-resource-component/downloads.svg)](https://packagist.org/packages/icgarzon/yii2-resource-component) [![Latest Unstable Version](https://poser.pugx.org/icgarzon/yii2-resource-component/v/unstable.svg)](https://packagist.org/packages/icgarzon/yii2-resource-component) [![License](https://poser.pugx.org/icgarzon/yii2-resource-component/license.svg)](https://packagist.org/packages/icgarzon/yii2-resource-component)
 
 This extension allows you to manage resources. Currently supports two possible scenarios: 
 
@@ -18,13 +18,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```sh
-php composer.phar require possibility-company/yii2-resource-component "*"
+php composer.phar require icgarzon/yii2-resource-component "*"
 ```
 
 or add
 
 ```json
-"possibility-company/yii2-resource-component": "*"
+"icgarzon/yii2-resource-component": "*"
 ```
 
 to the require section of your `composer.json` file.
