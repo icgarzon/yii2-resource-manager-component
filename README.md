@@ -1,7 +1,7 @@
 Resource Manager component for Yii 2
 ====================================
 
-[![Latest Stable Version](https://poser.pugx.org/2amigos/yii2-resource-manager-component/v/stable.svg)](https://packagist.org/packages/2amigos/yii2-ckeditor-widget) [![Total Downloads](https://poser.pugx.org/2amigos/yii2-resource-manager-component/downloads.svg)](https://packagist.org/packages/2amigos/yii2-resource-manager-component) [![Latest Unstable Version](https://poser.pugx.org/2amigos/yii2-resource-manager-component/v/unstable.svg)](https://packagist.org/packages/2amigos/yii2-resource-manager-component) [![License](https://poser.pugx.org/2amigos/yii2-resource-manager-component/license.svg)](https://packagist.org/packages/2amigos/yii2-resource-manager-component)
+[![Latest Stable Version](https://poser.pugx.org/icgarzon/yii2-resource-manager-component/v/stable.svg)](https://packagist.org/packages/icgarzon/yii2-ckeditor-widget) [![Total Downloads](https://poser.pugx.org/icgarzon/yii2-resource-manager-component/downloads.svg)](https://packagist.org/packages/icgarzon/yii2-resource-manager-component) [![Latest Unstable Version](https://poser.pugx.org/icgarzon/yii2-resource-manager-component/v/unstable.svg)](https://packagist.org/packages/icgarzon/yii2-resource-manager-component) [![License](https://poser.pugx.org/icgarzon/yii2-resource-manager-component/license.svg)](https://packagist.org/packages/icgarzon/yii2-resource-manager-component)
 
 This extension allows you to manage resources. Currently supports two possible scenarios: 
 
@@ -18,13 +18,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```sh
-php composer.phar require 2amigos/yii2-resource-manager-component "*"
+php composer.phar require icgarzon/yii2-resource-manager-component "*"
 ```
 
 or add
 
 ```json
-"2amigos/yii2-resource-manager-component": "*"
+"icgarzon/yii2-resource-manager-component": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -66,7 +66,7 @@ Notes
 -----
 
 Looking for a version for the Yii 1.1? There is dedicated repository for it:
-[2amigos/resource-manager](https://github.com/2amigos/resource-manager).
+[icgarzon/resource-manager](https://github.com/icgarzon/resource-manager).
 
 > [![2amigOS!](http://www.gravatar.com/avatar/55363394d72945ff7ed312556ec041e0.png)](http://www.2amigos.us)<br>
 <i>Web development has never been so fun!</i><br>
